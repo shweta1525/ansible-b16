@@ -1,6 +1,6 @@
 ---
 - name: My First Playbook
-  host: all
+  hosts: all
   tasks:
     - name: ping the hosts
       ping:
