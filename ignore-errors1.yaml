@@ -2,7 +2,8 @@
   hosts: all
   tasks:
     - name: shell script for error
-      shell: ps-elf | grep java | grep -v grep    
+      shell: ps-elf | grep java | grep -v grep
+      ignore_errors: yes    
 
     - name: print hello world
       debug:
