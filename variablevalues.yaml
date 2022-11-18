@@ -1,8 +1,8 @@
  name: playbook for debug
-  hosts: all
+ hosts: all
   vars:
-    url: "www.cloudbltiz.in"
-  tasks: 
+    URL: "www.cloudblitz.in"
+  tasks:
     - name: print hello world
       debug:
-        msg: "please {{ url }}"
+        msg: "plese visit {{ URL }}"
