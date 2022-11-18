@@ -1,0 +1,7 @@
+- name: condition playbook
+  hosts: all
+  tasks:
+    - name: print os if it is amazon
+      debug:
+        msg: "this is {{ ansible_distribution }}"
+      when: (ansible_distribution == 'amazon')
