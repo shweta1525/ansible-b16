@@ -1,7 +1,7 @@
-- name: loopin ansible
+- name: loop ansible
   hosts: all 
   tasks:
-    - name: loop 
+    - name: loop
       dubug:
         msg: '{{ item }}'
       loop: 
