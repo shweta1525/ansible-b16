@@ -5,6 +5,6 @@
       shell: ps-elf | grep java | grep -v grep
       ignore_errors: yes
 
-    - name: print Hello world
+    - name: print welcome to pune
       debug:
-        msg: 'Hello World'
+        msg: 'welcome to pune'
