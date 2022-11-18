@@ -1,4 +1,4 @@
-- name: ignore errors playbook
+- name: Ignore error playbook
   hots: all
   tasks:
     - name: shell script for error
