@@ -1,0 +1,6 @@
+- name: gathering facts playbook
+  hosts: all
+  tasks:
+    - name: print os name
+      debug:
+        msg: 'this is {{ ansible_distribution }}'
