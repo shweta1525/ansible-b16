@@ -1,3 +1,8 @@
+- name: install java
+  yum:
+    state: latest
+    name: java
+    
 - name: download tomcat 8
   get_url: "{{ TOMCAT_URL }}"
   dest: /opt/
