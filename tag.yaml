@@ -4,10 +4,14 @@
     - name: ptint hello world
       debug:
         msg: "hello world"
+      tags:
+        - hello
 
     - name: print welcome to pune
       debug:
         msg: "welocome to pune"
+      tags:
+        - welcome
 
     - name: print this is devops
       debug:
