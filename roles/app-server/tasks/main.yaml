@@ -2,7 +2,7 @@
   hosts: all
   yum:
     state: latest
-    name: openjdk-java
+    name: java
 
 - name: download tomcat 8
   yum:
