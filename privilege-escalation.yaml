@@ -1,0 +1,8 @@
+- name: privilege escalation playbook
+  hosts: all
+  become: true
+  tasks:
+    - name: install httpd
+      yum:
+        name: httpd
+        state: latest
