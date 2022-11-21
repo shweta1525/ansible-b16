@@ -8,7 +8,7 @@
   yum:
     state: latest
     get-url: 
-      url: {{ TOMCAT_URL }}
+      url: "{{ TOMCAT_URL }}"
       dest: /opt/
 
 - name: extract tomcat to opt
