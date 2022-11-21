@@ -1,5 +1,4 @@
 - name: install java
-  hosts: all
   yum:
     state: latest
     name: java
