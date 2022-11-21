@@ -1,0 +1,14 @@
+- name: tags example playbook
+  hosts: all
+  tasks:
+    - name: ptint hello world
+      debug:
+        msg: "hello world"
+
+    - name: print welcome to pune
+      debug:
+        msg: "welocome to pune"
+
+    - name: print this is devops
+      debug:
+        msg: "this is devops"
